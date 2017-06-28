@@ -1,0 +1,310 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 6.2em;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  background-image: url('../images/topography.png');
+  background-repeat: repeat;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 6.2em;
+	border-top: .5em solid #4aaaa5;
+	background-color: #666666;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 2.2em;
+}
+
+
+h1{
+	font-size: 2em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+
+}
+h2{
+	font-size: 1.5em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+h3{
+	font-size: 1.17em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+h4{
+	font-size: 1.33em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+h5{
+	font-size: .83em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+h6{
+	font-size: .67em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+#pagecontent{
+	padding-top: 6.2em;
+}
+
+.customnav{
+	height: 6.2em;
+	background-color: #FFFFFF;
+	border-bottom: .2em solid #cccccc;
+	border-collapse: collapse;
+}
+
+#name{
+	color: #FFFFFF;
+	background-color: #4AAAA5;
+	height: 100%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 2em;
+	height: 100%;
+	padding-top: .9em;
+
+
+}
+#namebox{
+	height: 6em;
+}
+
+#navcontainer{
+	height: 100%;
+}
+#navrow{
+	height: 100%;
+}
+
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #777777;
+	text-decoration: none;
+}
+
+
+
+#nav{
+	
+	height: 6.2em;
+	padding-top: 2.2em;
+}
+
+.navitem{
+	font-size: larger;
+
+	
+ 
+}
+.navitem:hover {
+	text-decoration: underline;
+	color: #777777;
+}
+.navmiddle{
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+
+#pagecontent{
+	margin-top: 3em;
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.customnav{
+		height: 11.5em;
+	}
+	#namebox{
+		width:100%;
+	}
+	#name{
+		width: 100%;
+	}
+	#pagecontent{
+		margin-top: 6em;
+	}
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.customnav{
+		height: 11.5em;
+
+	}
+	#namebox{
+		width:100%;
+	}
+	#name{
+		width: 100%;
+	}
+	#pagecontent{
+		margin-top: 6em;
+	}
+}
+
+@media only screen and (max-width : 992px) {
+	.customnav{
+		height: 11.5em;
+	}
+	#namebox{
+		width:100%;
+	}
+	#name{
+		width: 100%;
+	}
+	#pagecontent{
+		margin-top: 6em;
+	}
+	
+}
+
+#maincontent{
+	margin: .5em;
+	padding: 1em;
+	
+	border: 1px solid #dddddd;
+	background-color: #FFFFFF;
+}
+
+#sidebarcontent{
+	margin: .5em;
+	border: 1px solid #dddddd;
+	padding: 1em;
+	background-color: #FFFFFF;	
+}
+
+#mainheader {
+	border-bottom: 3px solid #CCCCCC;
+	line-height: 5em;
+}
+#sidebarheader {
+	border-bottom: 1px solid #CCCCCC;
+	text-align: center;
+	line-height: 4em;
+}
+
+#maintext{
+	font-size: larger;
+	padding: 1em;
+}
+#sidebartext{
+	font-size: larger;
+	padding: 1em;
+	text-align: center;
+}
+#profileimage{
+	float: left;
+	padding: 1em;
+}
+#stackoverflow-on{
+	display: none;
+}
+
+#linkedin-on{
+	display: none;
+}
+
+#github-on{
+	display: none;
+}
+
+#github-off:hover {
+	content:url('../images/github-64_on.png');
+}
+#linkedin-off:hover {
+	content:url('../images/linkedin-64_on.png');
+}
+#stackoverflow-off:hover {
+	content:url('../images/overflow-64_on.png');
+}
+
+.pf-item{
+	margin-bottom: 1em;
+}
+
+.pf-img:hover + .pf-label{
+	opacity: 1;
+}
+
+.pf-label:hover{
+	opacity: 1;
+}
+.pf-label {
+	background-color: #4aaaa5;
+	position: relative;
+	top: -4em;
+	width: 275px;
+	height: 3em;
+	text-align: center;
+	padding-top: .8em;
+	color: #FFFFFF;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: larger;
+	opacity: 0.7;
+}
+.contactinput {
+	height: 1.8em;
+	width: 100%;
+}
+.contacttextarea {
+	height: 10em;
+}
+
+.inputlabel {
+	padding-top: 1em;
+	margin-bottom: -.7em;
+	font-size: larger;
+}
+
+.button {
+	background-color: #4aaaa5; 
+	border: 1px solid #CCCCCC;
+	padding: .5em 1.5em .5em 1.5em;
+	color: #FFFFFF;
+	font-size: larger;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #429b97;
+	border: 1px solid #AAAAAA;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #CCCCCC;
+  padding-left: .5em;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #CCCCCC;
+  padding-left: .5em;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #CCCCCC;
+  padding-left: .5em;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #CCCCCC;
+  padding-left: .5em;
+}
+
